@@ -21,13 +21,81 @@
         }
     </script>
 </head>
-<body>
-    <div style="border: 1px solid; padding: 20px;">
+<body> 
+ <form> 
+<div
+style="border: 1px solid; padding: 10px;">
  <h1>Titulo de seção</h1>
  <p>Introdução a linguagem HTML</p>
 
- <form> 
+ 
  <label>nome:</label>
+ <br>
+
+ </form> 
+ </div>
+ <br>
+ <br>
+
+ <form> 
+    <div id="nome"
+ <label >nome:</label>
+ <input oninput="escrever(this)">
+ <label id="resultado">......</label>
+ </div>
+ <br>
+ <label >Idade:</label>
+ <input type="number">
+ <br>
+ <label >Senha:</label>
+ <input type="password">
+ <br>
+ <label>minha cor:</label>
+ <input type="color">
+ <br>
+ <label>lista de opções:</label>
+ <br>
+ <input
+ id="frutasPera"
+ name="frutas[]" 
+ type="checkbox"
+ value="pera"
+ >
+ <label for="frutasGoiaba">Goiaba</label>
+ <br>
+ <br>
+ <br>
+ <br>
+ <label>Está com fome?</label>
+ <input type="radio" id="fomeSim" name="fome" value="sim"onchange="visibilidade(this)">
+ <label for="fomeSim">Sim</label>
+
+ <input type="radio" id="fomeNao" name="fome" value="Nao"onchange="visibilidade(this)">
+ <label for="fomeNao">Nao</label>
+ <br>
+ <input type="datetime-local">
+ <br>
+ <input type="email">
+ <br>
+ <input type="file">
+ <br>
+ <input type="hidden">
+ <br>
+ <input type="month">
+ <br>
+ <input type="range">
+ <br>
+ <input type="reset">
+ <br>
+ <input type="time">
+ <br>
+ <input type="week">
+ <br>
+ <br>
+ <br>
+ <br>
+ <input type="submit" value="enviar">
+
+
  </form>
-</div>
 </html> 
