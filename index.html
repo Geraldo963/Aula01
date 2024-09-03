@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula01</title>
+    <script>
+        function visibilidade(obeto){
+            const nome = document.getElementById("nome")
+            if(objeto.value == "sim"){
+                nome.style.display = "nome"
+            }
+            else{
+                nome.style.display = "block"
+            }
+        }
+        function escrever(objeto){
+            const texto = objeto.value;
+            const destino = document.getElementById("resultado")
+            destino.innerText = texto
+        }
+    </script>
 </head>
 <body>
     <div style="border: 1px solid; padding: 20px;">
  <h1>Titulo de seção</h1>
  <p>Introdução a linguagem HTML</p>
+
  <form> 
  <label>nome:</label>
  </form>
